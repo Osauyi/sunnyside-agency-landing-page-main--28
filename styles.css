@@ -1,0 +1,504 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --Soft-red: hsl(7, 99%, 70%);
+  --Yellow: hsl(51, 100%, 49%);
+  --Dark-desaturated-cyan: hsl(167, 40%, 24%);
+  --Dark-blue: hsl(198, 62%, 26%);
+  --Dark-moderate-cyan: hsl(168, 34%, 41%);
+  --Very-dark-desaturated-blue: hsl(212, 27%, 19%);
+  --Very-dark-grayish-blue: hsl(213, 9%, 39%);
+  --Dark-grayish-blue: hsl(232, 10%, 55%);
+  --Grayish-blue: hsl(210, 4%, 67%);
+  --White: hsl(0, 0%, 100%);
+  --Light-green: rgba(144, 212, 197, 255);
+  --fontFraunces: 'Fraunces', serif;
+  --fontBarlow: 'Barlow', sans-serif;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+}
+
+
+h1 {
+  color: var(--White);
+  font-family: var(--fontFraunces);
+  font-weight: 900;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: .3rem;
+  margin: 70px 0 40px;
+}
+
+h2 {
+  font-family: var(--fontFraunces);
+  font-weight: 900;
+  font-size: 1.8rem;
+  padding: 0 60px;
+  margin-top: 60px;
+}
+
+h3 {
+
+  font-family: var(--fontFraunces);
+  font-size: 1.7rem;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-family: var(--fontFraunces);
+  color: var(--Grayish-blue);
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  letter-spacing: .2rem;
+  margin: 60px 0 0;
+}
+
+h5 {
+  color: var(--Very-dark-desaturated-blue);
+  margin: 0;
+  font-family: var(--fontFraunces);
+  font-size: 1.2rem;
+  font-weight: 900;
+  margin-top: 40px;
+}
+
+h6 {
+  color: var(--Grayish-blue);
+  margin-top: 10px;
+  font-family: var(--fontBarlow);
+  font-size: 1rem;
+}
+
+
+
+p {
+  color: var(--Dark-grayish-blue);
+  padding: 0 50px;
+  font-family: var(--fontBarlow);
+  font-weight: .9rem;
+  line-height: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* header */
+
+nav {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.dropDown {
+  position: relative;
+}
+
+.directive {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  background-color: var(--White);
+  width: 90%;
+  padding: 40px 16px;
+  margin-top: 60px;
+  z-index: 1;
+  height: 280px;
+  font-family: var(--fontBarlow);
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.directive a {
+  color: var(--Dark-grayish-blue);
+  font-weight: 600;
+}
+
+button {
+  background-color: var(--Yellow);
+  width: 45%;
+  margin: 0 auto;
+  border: none;
+  border-radius: 30px;
+  padding: 20px 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: var(--fontFraunces);
+}
+
+header {
+  background-image: url(images/mobile/image-header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 -35px;
+  height: 500px;
+}
+
+.arrow {
+  height: 100px;
+}
+
+/* section 1 */
+
+.transformBox {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.TransformIcon {
+  background-image: url(images/mobile/image-transform.jpg);
+  background-size: cover;
+  background-position: 50%;
+  height: 350px;
+}
+
+.standOutIcon {
+
+  background-image: url(images/mobile/image-stand-out.jpg);
+  background-size: cover;
+  background-position: 50%;
+  height: 350px;
+}
+
+.standOutText,
+.transformText {
+  padding-bottom: 70px;
+}
+
+.standOutText p,
+.transformText p {
+  margin-bottom: 30px;
+}
+
+.transformText a {
+  box-shadow: 0 6px 5px -2px var(--Yellow);
+}
+
+.standOutText a {
+  box-shadow: 0 6px 5px -2px var(--Soft-red);
+}
+
+.standOutText a,
+.transformText a {
+  font-family: var(--fontFraunces);
+  font-size: .9rem;
+  text-transform: uppercase;
+  color: black;
+}
+
+.GraphicBox {
+  background-image: url(images/mobile/image-graphic-design.jpg);
+  background-size: cover;
+  display: flex;
+}
+
+.GraphicText {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-top: 21.875rem;
+  padding-bottom: 40px;
+  height: 100%;
+
+}
+
+.GraphicText h3 {
+  color: var(--Dark-desaturated-cyan);
+}
+
+.GraphicText p {
+  padding: 0 10px;
+  color: var(--Dark-desaturated-cyan);
+}
+
+.PhotographyBox {
+  background-image: url(images/mobile/image-photography.jpg);
+  background-size: cover;
+  display: flex;
+
+}
+
+.PhotographyText {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-top: 380px;
+  padding-bottom: 40px;
+  height: 100%;
+
+}
+
+.PhotographyText h3 {
+  color: var(--Dark-blue);
+}
+
+.PhotographyText p {
+  padding: 0 10px;
+  color: var(--Dark-blue);
+}
+
+/* Section 2 */
+
+.clientBox {
+  margin-top: 60px;
+}
+
+
+.profilePic {
+  border-radius: 50px;
+  width: 60px;
+  height: 60px;
+}
+
+
+/* section 3 */
+
+.sweetsimgs {
+  background-image: url(images/mobile/image-gallery-milkbottles.jpg), url(images/mobile/image-gallery-orange.jpg), url(images/mobile/image-gallery-cone.jpg), url(images/mobile/image-gallery-sugar-cubes.jpg);
+
+  background-size: 200px,
+    200px, 200px, 200px;
+  background-position: top left, top right, bottom left, bottom right;
+  background-repeat: no-repeat;
+
+  height: 400px;
+  margin-top: 80px;
+}
+
+.contact {
+  background-color: var(--Light-green);
+}
+
+.bottomLogo {
+  margin: 60px 0 40px;
+  width: 50%;
+}
+
+.socials {
+  margin: 90px auto 0px;
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  background-color: var(--Light-green);
+  padding-bottom: 90px;
+
+}
+
+.noticeMe {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.noticeMe a {
+  color: var(--Dark-moderate-cyan);
+  font-family: var(--fontBarlow);
+  font-size: 1.1rem;
+}
+
+.fa-brands {
+  color: var(--Dark-desaturated-cyan);
+}
+
+footer {
+  background-color: var(--Light-green);
+
+}
+
+
+@media screen and (min-width: 62.5rem) {
+
+
+  h1 {
+    font-size: 3.5rem;
+    margin: 100px 0 50px;
+  }
+
+  h2 {
+    padding: 0;
+    font-size: 2.5rem;
+  }
+
+  h4 {
+    letter-spacing: .5rem;
+  }
+
+
+  p {
+    padding: 0;
+  }
+
+  /* naV */
+
+  .logo,
+  .directive a {
+    display: flex;
+    align-self: center;
+  }
+
+  .dropDown {
+    display: none;
+  }
+
+  .directive {
+    display: flex;
+    flex-direction: row;
+    background-color: initial;
+    position: initial;
+    justify-content: space-between;
+    width: 40%;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+
+  .directive a {
+    color: var(--White);
+  }
+
+  button {
+    width: 20%;
+    padding: 12px 18px;
+    background-color: var(--White);
+    margin: 0;
+    border: 2px solid var(--White);
+  }
+
+  button:hover {
+    color: var(--White);
+    background-color: initial;
+    border: 2px solid var(--White);
+  }
+
+  header {
+    background-image: url(images/desktop/image-header.jpg);
+    background-position: 0 -100px;
+    height: 740px;
+  }
+
+  .arrow {
+    height: initial;
+  }
+
+  /* section 1 */
+  .transformBox {
+    flex-direction: row;
+  }
+
+  .TransformIcon {
+    background-image: url(images/desktop/image-transform.jpg);
+    height: 550px;
+    width: 50%;
+  }
+
+  .transformText {
+    width: 50%;
+    text-align: left;
+    padding: 5% 13% 10% 10%;
+  }
+
+  .standOutBox {
+    display: flex;
+  }
+
+  .standOutIcon {
+    background-image: url(images/desktop/image-stand-out.jpg);
+    height: 550px;
+    width: 50%;
+
+  }
+
+  .standOutText {
+    width: 50%;
+    text-align: left;
+    padding: 5% 13% 10% 7%;
+  }
+
+  .standOutText p {
+    padding-right: 50px;
+  }
+
+  .fruits {
+    display: flex;
+  }
+
+  .GraphicBox {
+    background-image: url(images/desktop/image-graphic-design.jpg);
+    width: 50%;
+    height: 550px;
+  }
+
+  .GraphicText,
+  .PhotographyText {
+    margin-top: 20px;
+  }
+
+  .GraphicText p,
+  .PhotographyText p {
+    padding: 0 27%;
+  }
+
+  .PhotographyBox {
+    background-image: url(images/desktop/image-photography.jpg);
+    width: 50%;
+    height: 550px;
+  }
+
+
+  /* Section 2 */
+
+  .second {
+    padding: 8% 0;
+  }
+
+  .testimonials {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .clientBox {
+    padding: 0 32px;
+  }
+
+  .clientText {
+    margin-top: 80px;
+  }
+
+
+  /* section 3 */
+
+  .sweetsimgs {
+    background-image: url(images/desktop/image-gallery-milkbottles.jpg), url(images/desktop/image-gallery-orange.jpg), url(images/desktop/image-gallery-cone.jpg), url(images/desktop/image-gallery-sugarcubes.jpg);
+    padding: 200px 0;
+    background-position: 0 0, 380px 0px, 760px 0, top right;
+    background-size: 25%, 25%, 25%, 25%;
+    width: 100%;
+    height: initial;
+  }
+
+  .bottomLogo {
+    width: 20%;
+  }
+
+  .noticeMe {
+    width: 30%;
+  }
+
+  .socials {
+    width: 20%;
+  }
+}
