@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here]
-- Live Site URL: [Add live site URL here]
+- Solution URL: [https://github.com/Osauyi/sunnyside-agency-landing-page-main--28.git]
+- Live Site URL: [https://osauyi.github.io/sunnyside-agency-landing-page-main--28/]
 
 ## My process
 
