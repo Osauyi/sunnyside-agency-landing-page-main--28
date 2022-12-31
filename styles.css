@@ -383,12 +383,13 @@ footer {
 
   header {
     background-image: url(images/desktop/image-header.jpg);
-    background-position: 0 -100px;
+    background-position: 0 -60px;
     height: 740px;
   }
 
   .arrow {
     height: initial;
+    margin-top: 30px;
   }
 
   /* section 1 */
@@ -398,7 +399,7 @@ footer {
 
   .TransformIcon {
     background-image: url(images/desktop/image-transform.jpg);
-    height: 550px;
+    height: 554px;
     width: 50%;
   }
 
@@ -414,7 +415,7 @@ footer {
 
   .standOutIcon {
     background-image: url(images/desktop/image-stand-out.jpg);
-    height: 550px;
+    height: 555px;
     width: 50%;
 
   }
@@ -484,14 +485,14 @@ footer {
   .sweetsimgs {
     background-image: url(images/desktop/image-gallery-milkbottles.jpg), url(images/desktop/image-gallery-orange.jpg), url(images/desktop/image-gallery-cone.jpg), url(images/desktop/image-gallery-sugarcubes.jpg);
     padding: 200px 0;
-    background-position: 0 0, 380px 0px, 760px 0, top right;
+    background-position: 0 0, 360px 0px, 720px 0, top right;
     background-size: 25%, 25%, 25%, 25%;
     width: 100%;
     height: initial;
   }
 
   .bottomLogo {
-    width: 20%;
+    width: 15%;
   }
 
   .noticeMe {
